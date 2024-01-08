@@ -4,16 +4,16 @@
     font-family: Merriweather;
 }
 
-.main-section {}
+/* This is header section */
+.header-section {
 
-.img-section {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-
-
+    padding-top: 50px;
 }
 
+
+
 .background-image {
-    background-image: url(images/Banner\ Image.png);
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Banner\ Image.png);
     background-position: center;
     background-size: 100%;
     height: 750px;
@@ -30,12 +30,14 @@
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 52px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 154px;
+    padding-top:220px;
 }
+
+
 
 .top-header {
 
@@ -46,6 +48,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+    padding-top: 45px;
 
     /* 131.944% */
 
@@ -106,16 +109,18 @@
 
 .section-part-3 {
     display: flex;
-    background: url(images/Vectorrr.png);
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 850px;
+    height: 650px;
     width: 1650px;
     margin-bottom: 150px;
 
     margin-right: 126px;
     margin-left: 126px;
     justify-content: center;
+    border-radius: 5px;
+    
 
 }
 
@@ -149,6 +154,7 @@
     text-align: center;
     justify-content: center;
     margin: 150px;
+    
 }
 
 .btn-man {
@@ -175,7 +181,7 @@
 
 .new-park {
     padding-bottom: 20px;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 .new-park1 {
@@ -245,9 +251,12 @@
 }
 
 .dolor-paragraph {
-    display: inline;
+    
     font-size: 20px;
     font-family: Inter;
+    text-align: center;
+    padding-left: 20px;
+    
 }
 
 .img-ellipse {
@@ -419,13 +428,13 @@ footer {
 .footer-title {
     text-align: center;
     margin-top: 120px;
-    margin-left: 140px;
+    margin-left: 450px;
     padding-bottom: 50px;
 
     color: #FFF;
 
     font-family: Inter;
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
@@ -436,12 +445,12 @@ footer {
 .footer-title-2 {
     text-align: center;
     margin-top: 120px;
-    margin-left: 140px;
-    margin-left: 20%;
+   
+    margin-left: 30%;
     color: #FFF;
 
     font-family: Inter;
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
@@ -472,11 +481,11 @@ footer {
 
 .right-reserved {
     color: white;
-    padding-left: 140px;
+    padding-left: 400px;
     color: #FFF;
 
     font-family: Inter;
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -489,7 +498,7 @@ footer {
     color: #FFF;
 
     font-family: Inter;
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
