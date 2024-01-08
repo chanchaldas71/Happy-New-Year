@@ -13,7 +13,7 @@
 
 
 .background-image {
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Banner\ Image.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Banner\ Image.png);
     background-position: center;
     background-size: 100%;
     height: 750px;
@@ -34,7 +34,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top:220px;
+    padding-top: 220px;
 }
 
 
@@ -120,7 +120,7 @@
     margin-left: 126px;
     justify-content: center;
     border-radius: 5px;
-    
+
 
 }
 
@@ -154,7 +154,7 @@
     text-align: center;
     justify-content: center;
     margin: 150px;
-    
+
 }
 
 .btn-man {
@@ -219,8 +219,11 @@
 
 .section-part-4 {
     display: flex;
-    margin-left: 120px;
+    margin-left: 200px;
     margin-right: 120px;
+    border: 1px solid red;
+    padding-left: 20px;
+
 
 }
 
@@ -251,12 +254,12 @@
 }
 
 .dolor-paragraph {
-    
+
     font-size: 20px;
     font-family: Inter;
     text-align: center;
     padding-left: 20px;
-    
+
 }
 
 .img-ellipse {
@@ -264,7 +267,7 @@
     border: 15px solid #F00;
     padding: 25px;
     margin: 20px;
-    margin-left: 200px;
+    margin-left: 50px;
 
 
 }
@@ -360,7 +363,7 @@
 
 .section-6 {
     text-align: center;
-    
+
     padding-bottom: 80px;
     padding-top: 80px;
     background-color: rgba(255, 0, 0, 0.05);
@@ -445,7 +448,7 @@ footer {
 .footer-title-2 {
     text-align: center;
     margin-top: 120px;
-   
+
     margin-left: 30%;
     color: #FFF;
 
@@ -462,9 +465,9 @@ footer {
     padding-top: 30px;
     text-align: center;
     padding-bottom: 30px;
-    border-bottom: 1px  solid;
+    border-bottom: 1px solid;
     border-bottom: 1px solid rgb(38, 32, 32);
-    
+
 
 
 }
@@ -476,7 +479,7 @@ footer {
 
 .last-footer {
     display: flex;
-    
+
 }
 
 .right-reserved {
@@ -505,4 +508,37 @@ footer {
     padding-left: 800px;
     padding-top: 50px;
 
+}
+
+.section-7 {
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-8 {
+    color: #070211;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.section-9 {
+    color: #F00;
+}
+
+.section-10 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
 }
