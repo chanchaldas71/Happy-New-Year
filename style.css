@@ -154,6 +154,8 @@
     text-align: center;
     justify-content: center;
     margin: 150px;
+    
+    
 
 }
 
@@ -174,6 +176,11 @@
 
 }
 
+.btn-man:hover {
+    color: red;
+    cursor: pointer;
+}
+
 .hotel-room {
     text-align: center;
 
@@ -192,7 +199,9 @@
     padding-bottom: 30px;
 }
 
-.btn-man2 {}
+.btn-man2:hover {
+    color: rgb(66, 10, 10);
+}
 
 .main-rom {
     border: 0px solid red;
@@ -215,13 +224,15 @@
     border: 0;
     font-size: 20px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .section-part-4 {
     display: flex;
     margin-left: 200px;
     margin-right: 120px;
-    border: 1px solid red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
     padding-left: 20px;
 
 
@@ -267,7 +278,7 @@
     border: 15px solid #F00;
     padding: 25px;
     margin: 20px;
-    margin-left: 50px;
+    margin-left: 90px;
 
 
 }
@@ -305,7 +316,7 @@
 }
 
 .group-96 {
-    margin-left: 200px;
+    margin-left: 230px;
     margin-top: 40px;
 }
 
@@ -408,6 +419,11 @@
     text-transform: capitalize;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+
+.last-btn:hover{
+    color: rgb(0, 0, 0);
 }
 
 footer {
@@ -467,6 +483,7 @@ footer {
     padding-bottom: 30px;
     border-bottom: 1px solid;
     border-bottom: 1px solid rgb(38, 32, 32);
+    cursor: pointer;
 
 
 
@@ -550,6 +567,7 @@ footer {
     
     margin-left: 140px;
     margin-right: 140px;
+    margin-top: 60px;
     background-image: url(images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     position: relative;
